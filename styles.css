@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  #developers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .developer-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .developer-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333333;
+  }
+  
+  .developer-card p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .developer-card p.skills {
+    margin-top: 10px;
+  }
+  
+  .developer-card p.email {
+    margin-top: 20px;
+    color: #3366cc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .developer-card p.email:hover {
+    color: #224499;
+  }
+  
+  .developer-card p.email:visited {
+    color: #3366cc;
+  }
+  
+  .developer-card p.email:active {
+    color: #224499;
+  }
+  
